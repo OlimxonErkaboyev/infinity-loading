@@ -3,7 +3,7 @@ import "./App.css";
 function App() {
   return (
     <header className="App-header">
-        <div className="container wrapper">
+      <div className="container wrapper">
         <svg
           width="400"
           height="160"
@@ -29,10 +29,12 @@ function App() {
           Сайт находится в стадии разработки.
           <br /> Мы скоро запустимся, следите за обновлениями!
         </h1>
-        {/* <div class="lds-dual-ring"></div> */}
-        <div class="loader"></div>
-    </div>
-      </header>
+        <div className="loaders">
+          <div class="lds-dual-ring"></div>
+          <div class="loader"></div>
+        </div>
+      </div>
+    </header>
   );
 }
 

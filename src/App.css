@@ -23,7 +23,7 @@ body {
   height: 100%;
   margin: 0;
   font-family: "Arial", sans-serif;
-  background-color: #fff;
+  background-color: #E7E8EC;
 }
 
 img {
@@ -90,7 +90,7 @@ li {
 }
 .lds-dual-ring {
   display: inline-block;
-  margin-top: 150px;
+  margin-top: 50px;
   width: 100px;
   height: 100px;
 }
@@ -114,14 +114,20 @@ li {
   }
 }
 
+.loaders{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 /* HTML: <div class="loader"></div> */
 .loader {
     width: fit-content;
     font-weight: bold;
     font-family: monospace;
     font-size: 30px;
-  margin-top: 150px;
-
+  /* margin-top: 150px; */
     color: #0000;
     background: linear-gradient(90deg,#C02942 calc(50% + 0.5ch),#000 0) right/calc(200% + 1ch) 100%;
     -webkit-background-clip: text;
